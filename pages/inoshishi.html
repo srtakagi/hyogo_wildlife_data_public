@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="index" href="/">
+
+	<link type="text/css" rel="stylesheet" href="../common/css/default.css">
+	<link type="text/css" rel="stylesheet" href="../common/css/style.css">
+
+	<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../common/js/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<script type="text/javascript" src="../common/js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">
+	  DD_belatedPNG.fix('img, a, li, h3, header');
+	</script>
+	<![endif]-->
+	<script type="text/javascript" src="../common/js/yuga.js"></script>
+	<script type="text/javascript" src="../common/js/rollover.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btn_summary").click(
+function(){
+  $(".detail").addClass("disnon");
+  $(this).addClass("selected");
+  $("#btn_detail").removeClass("selected");
+  $("#summary_h3").removeClass("disnon");
+});
+
+$("#btn_detail").click(
+  function(){
+    $(".detail").removeClass("disnon");
+    $(this).addClass("selected");
+    $("#btn_summary").removeClass("selected");
+    $("#summary_h3").addClass("disnon");
+  });
+});
+  </script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.folder_plus').click(function() {
+        $(this).next().slideToggle();
+        $(this).toggleClass('bg_minus');
+      }).next().hide();
+    });
+  </script>
+    
+    
+	<title>野生動物管理データ集（令和3年度）</title>
+</head>
+
+<body id="sub">
+<div id="wrapper">
+<header>
+	<div id="header_inner">
+		<h1><img src="../common/images/title.gif"></h1>
+		<div id="header_info">令和3年度版 期間：1998年～2020年 発行：2022年6月20日</div>
+	</div>
+</header>
+
+
+<div id="pan">
+	<ul>
+		<li>イノシシ</li>
+		<li>＞</li>
+		<li class="home"><a href="../index.html">HOME</a></li>
+	</ul>
+</div>
+
+<div id="contents">
+	<h2><img src="images/tit_inoshishi.png" alt="イノシシ" width="910" height="100"></h2>
+	<div id="switch">
+		<ul>
+			<li id="btn_summary" class="selected"><img src="images/btn_gaiyou.png" width="131" height="39"></li>
+			<li id="btn_detail"><img src="images/btn_syousai.png" width="131" height="39"></li>
+		</ul>
+		<p>※『詳細版』はすべてのデータを表示、『概要版』は主要なデータを抜粋して表示します。</p>
+	</div>
+	
+	<h3 id="summary_h3">イノシシ概要版</h3>
+	<h3 class="detail disnon">イノシシ詳細版</h3>
+	<div class="box">
+
+		<h4>現状把握</h4>
+		<h5>[ 生息状況 ]</h5>
+		<ul>
+
+			<li class="summary">一人日あたり銃猟目撃効率[SPUE]（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sj01/boar/sj01m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">11-12月の一人日あたり銃猟目撃効率[SPUE]（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sj02/boar/sj02m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">一人日あたり銃猟捕獲効率[CPUE]（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sj03/boar/sj03m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">100わな日あたり箱わな捕獲効率[CPUE]（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sh01/boar/sh01m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">100わな日あたりくくりわな捕獲効率[CPUE]（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sk01/boar/sk01m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">鳥獣害アンケート分布情報（マップ）：
+
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/ag02/boar/ag02m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="summary">鳥獣害アンケート出没情報（マップ）：
+
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/ag03/boar/ag03m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+		</ul>
+
+		<h5>[ 被害状況 ]</h5>
+		<ul>
+			<li class="summary">鳥獣害アンケート被害情報（マップ）：
+
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/ag01/boar/ag01m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">鳥獣害アンケート前年度比の被害傾向（マップ）：
+
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/ag04/boar/ag04m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/ag04/boar/ag04m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/ag04/boar/ag04m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/ag04/boar/ag04m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="summary">農業被害程度の変化（グラフ・表）：
+				 [ <a href="./data/excel/boar_higai_summary.pdf" target="_blank" class="graph_table">農業被害程度の経年変化のグラフ・集計表</a> ]
+			</li>
+
+		</ul>
+
+		<h5>[ 捕獲状況 ]</h5>
+		<ul>
+			<li class="detail disnon">森林面積あたり銃猟捕獲頭数（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sj04/boar/sj04m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">森林面積あたり箱わな捕獲頭数（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sh02/boar/sh02m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">森林面積あたりくくりわな捕獲頭数（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sk02/boar/sk02m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">森林面積あたりわな猟捕獲頭数（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sw01/boar/sw01m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="summary">森林面積あたり狩猟捕獲頭数（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sy01/boar/sy01m_boar_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">森林面積あたり銃猟捕獲努力量（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sj05/sj05m_2002.png" target="_blank" class="map">2002年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2003.png" target="_blank" class="map">2003年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2004.png" target="_blank" class="map">2004年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sj05/sj05m_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">森林面積あたり箱わな捕獲努力量（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sh03/sh03m_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sh03/sh03m_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+			<li class="detail disnon">森林面積あたりくくりわな捕獲努力量（マップ）：
+				<span class="folder_plus">メッシュ単位</span>
+				<ul class="hide">
+
+					<li><a href="./data/map/sk03/sk03m_2005.png" target="_blank" class="map">2005年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2006.png" target="_blank" class="map">2006年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2007.png" target="_blank" class="map">2007年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2008.png" target="_blank" class="map">2008年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2009.png" target="_blank" class="map">2009年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2010.png" target="_blank" class="map">2010年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2011.png" target="_blank" class="map">2011年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2012.png" target="_blank" class="map">2012年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2013.png" target="_blank" class="map">2013年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2014.png" target="_blank" class="map">2014年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2015.png" target="_blank" class="map">2015年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2016.png" target="_blank" class="map">2016年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2017.png" target="_blank" class="map">2017年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2018.png" target="_blank" class="map">2018年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2019.png" target="_blank" class="map">2019年</a></li>
+
+					<li><a href="./data/map/sk03/sk03m_2020.png" target="_blank" class="map">2020年</a></li>
+
+				</ul>
+			</li>
+
+
+		</ul>
+
+<!--		<h5 class="detail disnon">[  環境状況 ]</h5>
+		<ul>
+			<li class="detail disnon">環境状況（マップ）：<a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/" target="_blank" class="folder">ブナ科堅果類の豊凶指数の空間補間地図（フォルダリンク）</a><span class="folder_plus">内容を見る</span>
+				<ul class="hide">
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2005.png" target="_blank" class="map">2005年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2006.png" target="_blank" class="map">2006年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2007.png" target="_blank" class="map">2007年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2008.png" target="_blank" class="map">2008年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2009.png" target="_blank" class="map">2009年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2010.png" target="_blank" class="map">2010年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2011.png" target="_blank" class="map">2011年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2012.png" target="_blank" class="map">2012年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2013.png" target="_blank" class="map">2013年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2014.png" target="_blank" class="map">2014年</a></li>
+					<li><a href="./data/map/bn01ブナ科堅果類_豊凶指数補間/PNG凡例付き/ブナ科堅果類豊凶2015.png" target="_blank" class="map">2015年</a></li>
+				</ul>
+			</li>
+			<li class="detail disnon">環境状況（マップ）：<a href="./data/map/sn01積雪深/PNG凡例付き/" target="_blank" class="folder">最大積雪深の空間補間地図（フォルダリンク）</a><span class="folder_plus">内容を見る</span>
+				<ul class="hide">
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深1998.png" target="_blank" class="map">1998年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深1999.png" target="_blank" class="map">1999年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2000.png" target="_blank" class="map">2000年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2001.png" target="_blank" class="map">2001年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2002.png" target="_blank" class="map">2002年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2003.png" target="_blank" class="map">2003年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2004.png" target="_blank" class="map">2004年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2005.png" target="_blank" class="map">2005年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2006.png" target="_blank" class="map">2006年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2007.png" target="_blank" class="map">2007年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2008.png" target="_blank" class="map">2008年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2009.png" target="_blank" class="map">2009年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2010.png" target="_blank" class="map">2010年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2011.png" target="_blank" class="map">2011年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2012.png" target="_blank" class="map">2012年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2013.png" target="_blank" class="map">2013年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2014.png" target="_blank" class="map">2014年</a></li>
+					<li><a href="./data/map/sn01積雪深/PNG凡例付き/積雪深2015.png" target="_blank" class="map">2015年</a></li>
+				</ul>
+			</li>
+		</ul>
+		-->
+
+	</div><!--//box-->
+
+</div><!--//contents-->
+<div id="totop"><a href="#wrapper"><img src="../common/images/totop_out.png" alt="PAGE TOPへ" width="154" height="24"></a></div>
+<footer>
+  <div id="footer_inner">
+  <div id="footer_navi">
+    <ul class="marB10">
+      <li class="home"><a href="../index.html">HOME</a></li>
+    </ul>
+    <dl>
+      <dt>動物種別データ</dt>
+      <dd>
+        <ul class="navi_01">
+         <li><a href="sika.html">シカ</a></li>
+         <li><a href="inoshishi.html">イノシシ</a></li>
+         <li><a href="saru.html">ニホンザル</a></li>
+         <li><a href="kuma.html">ツキノワグマ</a></li>
+         <li><a href="hakubishin.html">ハクビシン</a></li>
+         <li><a href="araiguma.html">アライグマ</a></li>
+         <li><a href="nutria.html">ヌートリア</a></li>
+         <li><a href="others.html">その他の鳥獣</a></li>
+        </ul>
+      </dd>
+    </dl>
+  </div>
+  </div>
+  <div id="footer_bottom">
+  <div id="copyright"><img src="../common/images/copyright.png" alt="Copyright"></div>
+  </div>
+</footer>	
+</div><!--//wrapper-->
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="index" href="/">
+
+	<link type="text/css" rel="stylesheet" href="../common/css/default.css">
+	<link type="text/css" rel="stylesheet" href="../common/css/style.css">
+
+	<script type="text/javascript" src="../common/js/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../common/js/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<script type="text/javascript" src="../common/js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">
+	  DD_belatedPNG.fix('img, a, li, h3, header');
+	</script>
+	<![endif]-->
+	<script type="text/javascript" src="../common/js/yuga.js"></script>
+	<script type="text/javascript" src="../common/js/rollover.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.folder_plus').click(function() {
+				$(this).next().slideToggle();
+				$(this).toggleClass('bg_minus');
+			}).next().hide();
+		});
+	</script>
+
+	<title>野生動物管理データ集（令和3年度）</title>
+</head>
+
+<body id="sub">
+<div id="wrapper">
+<header>
+	<div id="header_inner">
+		<h1><img src="../common/images/title.gif"></h1>
+		<div id="header_info">令和3年度版 期間：1998年～2020年 発行：2022年6月20日</div>
+	</div>
+</header>
+
+
+<div id="pan">
+	<ul>
+		<li>地図閲覧システム</li>
+		<li>＞</li>
+		<li class="home"><a href="../index.html">HOME</a></li>
+	</ul>
+</div>
+
+<div id="contents">
+	<div class="box">
+	<h3>農業被害地図閲覧システム</h3>
+	<br>
+	<font style="font-size:120%">
+		鳥獣害アンケート(農業被害程度)の農会ごとの結果を地図で閲覧できます。<br>
+		スクロールで拡大・縮小し、農会（ポイント）をクリックすると詳細情報が表示されます。<br>
+		背景地図についてはオンライン環境でのみ取得されます。<br>
+		※データサイズが大きいため、閲覧環境によっては描画に時間がかかります<br>
+		<br>
+		以下の地図の背景画像には国土地理院コンテンツ（地理院タイル）が含まれています。<br>
+		国土地理院の利用規約をご確認のうえ、出典の明記や承認申請等のルールに従ってください。<br>
+		・<a href="http://maps.gsi.go.jp/help/use.html">地理院タイルのご利用について</a><br>
+		・<a href="http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html">国土地理院コンテンツ利用規約</a><br>
+		・<a href="http://www.gsi.go.jp/LAW/2930-index.html">国土地理院の地図の利用手続</a><br>
+		</font>
+		<br>
+		<h4>[農業被害の地図（2010-）]</h4>
+		<ul>
+			<li><a href="../leaflet/sika_p.html" target="_blank" class="map">シカ</a></li>
+			<li><a href="../leaflet/boar_p.html" target="_blank" class="map">イノシシ</a></li>
+			<li><a href="../leaflet/saru_p.html" target="_blank" class="map">ニホンザル</a></li>
+			<li><a href="../leaflet/kuma_p.html" target="_blank" class="map">ツキノワグマ</a></li>
+			<li><a href="../leaflet/hakubishin_p.html" target="_blank" class="map">ハクビシン</a></li>
+			<li><a href="../leaflet/raccoon_p.html" target="_blank" class="map">アライグマ</a></li>
+			<li><a href="../leaflet/nutria_p.html" target="_blank" class="map">ヌートリア</a></li>
+		</ul>
+	</div><!--//box-->
+
+</div><!--//contents-->
+<div id="totop"><a href="#wrapper"><img src="../common/images/totop_out.png" alt="PAGE TOPへ" width="154" height="24"></a></div>
+<footer>
+  <div id="footer_inner">
+  <div id="footer_navi">
+  <ul class="marB10">
+  <li class="home"><a href="../index.html">HOME</a></li>
+  </ul>
+  <dl>
+  <dt>動物種別データ</dt>
+  <dd>
+  <ul class="navi_01">
+  <li><a href="sika.html">シカ</a></li>
+  <li><a href="inoshishi.html">イノシシ</a></li>
+  <li><a href="saru.html">ニホンザル</a></li>
+  <li><a href="kuma.html">ツキノワグマ</a></li>
+  <li><a href="hakubishin.html">ハクビシン</a></li>
+  <li><a href="araiguma.html">アライグマ</a></li>
+  <li><a href="nutria.html">ヌートリア</a></li>
+  <li><a href="others.html">その他の鳥獣</a></li>
+  </ul>
+  </dd>
+  </dl>
+  </div>
+  </div>
+  <div id="footer_bottom">
+  <div id="copyright"><img src="../common/images/copyright.png" alt="Copyright"></div>
+  </div>
+  </footer>	
+  </div><!--//wrapper-->
+  </body>
+</html>

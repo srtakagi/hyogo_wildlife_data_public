@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+	<meta charset="UTF-8">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="index" href="/">
+
+	<link type="text/css" rel="stylesheet" href="./common/css/default.css">
+	<link type="text/css" rel="stylesheet" href="./common/css/style.css">
+
+	<script type="text/javascript" src="common/js/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="common/js/html5.js"></script>
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<script type="text/javascript" src="common/js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">
+	  DD_belatedPNG.fix('img, a, li, h3, header');
+	</script>
+	<![endif]-->
+	<script type="text/javascript" src="common/js/yuga.js"></script>
+	<script type="text/javascript" src="common/js/rollover.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.folder_plus').click(function() {
+				$(this).next().slideToggle();
+				$(this).toggleClass('bg_minus');
+			}).next().hide();
+		});
+	</script>
+
+	<title>野生動物管理データ集（令和3年度）</title>
+</head>
+
+<body id="top">
+<div id="wrapper">
+<header>
+	<div id="header_inner">
+		<h1><img src="common/images/title.gif"></h1>
+		<div id="header_info">令和3年度版 期間：1998年～2020年 発行：2022年6月20日</div>
+	</div>
+</header>
+
+<div id="contents">
+	  本データ集の収録地図は地理院タイル（国土地理院）および農業集落境界データ（農林水産省）をもとに、
+		兵庫県森林動物研究センターが加工したものです。<br>
+		<font size ="4" color="red">※令和2年度調査に基づくデータを掲載しています。</font>
+	<div class="box top">
+		<h2><img src="images/tit_shubetsu.png" alt="動物種別データ" width="900" height="42"></h2>
+		<div id="btn_area">
+			<a href="pages/sika.html"><img src="images/btn_sika_out.png" alt="シカ" width="448" height="148"></a>
+			<a href="pages/inoshishi.html"><img src="images/btn_inoshishi_out.png" alt="イノシシ" width="448" height="148"></a>
+			<a href="pages/saru.html"><img src="images/btn_saru_out.png" alt="ニホンザル" width="294" height="75"></a>
+			<a href="pages/kuma.html"><img src="images/btn_kuma_out.png" alt="ツキノワグマ" width="294" height="75"></a>
+			<a href="pages/hakubishin.html"><img src="images/btn_hakubishin_out.png" alt="ハクビシン" width="294" height="75"></a>
+			<a href="pages/araiguma.html"><img src="images/btn_araiguma_out.png" alt="アライグマ" width="294" height="75"></a>
+			<a href="pages/nutria.html"><img src="images/btn_nutoria_out.png" alt="ヌートリア" width="294" height="75"></a>
+			&nbsp;&nbsp;&nbsp;<a href="pages/others.html" style="font-size:150%">[ その他の鳥獣 >]</a>
+		</div>
+		<ul>
+
+			<h5><li><a href="./pages/leafletmap.html" class="map">農業被害地図閲覧システム</a></li></h5>
+		</ul>
+	</div> 
+
+</div><!--//contents-->
+<div id="totop"><a href="#wrapper"><img src="common/images/totop_out.png" alt="PAGE TOPへ" width="154" height="24"></a></div>
+  <footer>
+      <div id="footer_inner">
+      <div id="footer_navi">
+        <ul class="marB10">
+          <li class="home"><a href="index.html">HOME</a></li>
+        </ul>
+      <dl>
+        <dt>動物種別データ</dt>
+        <dd>
+        <ul class="navi_01">
+          <li><a href="pages/sika.html">シカ</a></li>
+          <li><a href="pages/inoshishi.html">イノシシ</a></li>
+          <li><a href="pages/saru.html">ニホンザル</a></li>
+          <li><a href="pages/kuma.html">ツキノワグマ</a></li>
+          <li><a href="pages/hakubishin.html">ハクビシン</a></li>
+          <li><a href="pages/araiguma.html">アライグマ</a></li>
+          <li><a href="pages/nutria.html">ヌートリア</a></li>
+          <li><a href="pages/others.html">その他の鳥獣</a></li>
+        </ul>
+        </dd>
+      </dl>
+      </div>
+      </div>
+    <div id="footer_bottom">
+    <div id="copyright"><img src="common/images/copyright.png" alt="Copyright"></div>
+    </div>
+  </footer>	
+</div><!--//wrapper-->
+</body>
+</html>
